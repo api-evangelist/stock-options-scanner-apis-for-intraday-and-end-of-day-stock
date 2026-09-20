@@ -1,0 +1,62 @@
+name: Mboum
+description: >-
+  Stock and options market data REST API providing intraday and end-of-day data including quotes, options chains,
+  technical indicators, SEC filings, insider trades, earnings, dividends, and screeners.
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/stock-options-scanner-apis-for-intraday-and-end-of-day-stock/refs/heads/main/apis.yml
+created: '2026-09-20'
+modified: '2026-09-20'
+specificationVersion: '0.21'
+tags:
+  - stock
+  - stock market
+  - options
+  - options market
+  - trading
+  - quotes
+  - market data
+  - technical indicators
+  - SEC filings
+  - insider trading
+  - IPO
+  - dividends
+  - earnings
+  - historical data
+  - screener
+  - crypto
+apis:
+  - name: Mboum Stock & Options Data API
+    description: >-
+      REST/JSON API for stock and options market data: quotes, history, options chains, unusual options activity,
+      financials, analyst ratings, SEC filings, insider trades, calendar events, technical indicators, and crypto. API
+      key authentication via Authorization Bearer header or apikey query parameter; rate limited to 15 requests/second.
+    humanURL: https://mboum.com/pages/api
+    baseURL: https://api.mboum.com
+    tags:
+      - stock
+      - stock market
+      - options
+      - options market
+      - trading
+      - quotes
+      - market data
+      - technical indicators
+      - SEC filings
+      - insider trading
+      - IPO
+      - dividends
+      - earnings
+      - historical data
+      - screener
+      - crypto
+    properties:
+      - type: Documentation
+        url: https://docs.mboum.com/
+maintainers:
+  - FN: Mboum
+    url: https://mboum.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 95
+  at: '2026-09-20T22:15:21.397Z'
